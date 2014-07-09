@@ -1,4 +1,4 @@
-# Passport-Google-Token
+# Passport-Google-AuthCode
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Google](http://www.google.com/)
 one time authorization code using the OAuth 2.0 API.
@@ -23,7 +23,7 @@ accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a app ID and app secret.
 
 ```js
-passport.use(new GoogleTokenStrategy({
+passport.use(new GoogleAuthCodeStrategy({
     clientID: GOOGLE_CLIENT_ID,
     clientSecret: GOOGLE_CLIENT_SECRET
   },
