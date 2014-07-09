@@ -1,0 +1,24 @@
+{
+  "name": "passport-google-authcode",
+  "version": "0.1.0",
+  "description": "Passport strategy for authenticating with Google one time authorization code using the OAuth 2.0 API.",
+  "author": { "name": "Shobhit Singhal", "email": "shobhitsinghal624@gmail.com" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shobhitsinghal624/passport-google-authcode.git"
+  },
+  "bugs": {
+    "url": "http://github.com/shobhitsinghal624/passport-google-authcode/issues"
+  },
+  "main": "./lib/passport-google-authcode",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "keywords": ["passport", "google", "auth", "authorization", "code", "authcode", "authn", "authentication", "identity"]
+}
