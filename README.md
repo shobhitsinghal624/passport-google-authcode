@@ -15,6 +15,15 @@ unobtrusively integrated into any application or framework that supports
 
 ## Usage
 
+#### Require Strategy
+
+Require the `passport-google-authcode` Strategy along with `passport`
+
+```js
+var passport = require('passport');
+var GoogleAuthCodeStrategy = require('passport-google-authcode').Strategy;
+```
+
 #### Configure Strategy
 
 The Google authentication strategy authenticates users using a Google
