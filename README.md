@@ -62,8 +62,10 @@ The post request to this route should include a JSON object with the key `code` 
 
 ## Credits
 
-  - [Shobhit Singhal](http://github.com/shobhitsinghal624)
-  - [Jared Hanson](http://github.com/jaredhanson)
+  - [Shobhit Singhal](https://github.com/shobhitsinghal624)
+  - [Jared Hanson](https://github.com/jaredhanson)
+  - [Ethan Langevin](https://github.com/ejlangev)
+  - [Maxim Yaskevich](https://github.com/myaskevich)
 
 ## License
 
