@@ -66,6 +66,7 @@ The post request to this route should include a JSON object with the key `code` 
   - [Jared Hanson](https://github.com/jaredhanson)
   - [Ethan Langevin](https://github.com/ejlangev)
   - [Maxim Yaskevich](https://github.com/myaskevich)
+  - [Thibault](https://github.com/melkir)
 
 ## License
 
