@@ -34,7 +34,8 @@ accepts these credentials and calls `done` providing a user, as well as
 ```js
 passport.use(new GoogleAuthCodeStrategy({
     clientID: GOOGLE_CLIENT_ID,
-    clientSecret: GOOGLE_CLIENT_SECRET
+    clientSecret: GOOGLE_CLIENT_SECRET,
+    callbackURL: "http://yourdomain:3000/auth/google/callback"
   },
   function(accessToken, refreshToken, profile, done) {
     User.findOrCreate({ googleId: profile.id }, function (err, user) {
@@ -43,6 +44,8 @@ passport.use(new GoogleAuthCodeStrategy({
   }
 ));
 ```
+
+Please note that even though in some cases `callbackURL` may not be needed, but Google's API expects a non-null value for this. If it is not set, you'll get back an error response. Setting it to any non-null value should solve it. More information [here](https://github.com/shobhitsinghal624/passport-google-authcode/issues/9#issuecomment-501581395).
 
 #### Authenticate Requests
 
